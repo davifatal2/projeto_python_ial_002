@@ -18,6 +18,11 @@ def GeraProdutos(nomearq,qtd):
   '''Gera um arquivo com valores aleatóreos formatados corretamente.\nEntre com o nome do arquivo e a quantidade de itens no arquivo.\nRetorna o nome do arquivo.'''
 
   Dados = []
+  #Adiciona os dados do exemplo do PDF e completa a lista com mais 11 valores, totalizando 15
+  Dados.append((11370, "P", 14.352, 17.35, 18.82))
+  Dados.append((19258, "U", 317.000, 17.80, 19.30))
+  Dados.append((20412, "U", 19.000, 4.75, 27.55))
+  Dados.append((32177, "P", 16.120, 5.38, 23.00))
 
   i = 0
   while i < qtd - 4: # -4 para incluir os dados como exemplo no PDF
@@ -33,11 +38,6 @@ def GeraProdutos(nomearq,qtd):
       b = "U"
       c = round(c, 0)
 
-    #Adiciona os dados do exemplo do PDF e completa a lista com mais 11 valores, totalizando 15
-    Dados.append((11370, "P", 14.352, 17.35, 18.82))
-    Dados.append((19258, "U", 317.000, 17.80, 19.30))
-    Dados.append((20412, "U", 19.000, 4.75, 27.55))
-    Dados.append((32177, "P", 16.120, 5.38, 23.00))
     Dados.append((a, b, c, d, e))
     i = i + 1
   
