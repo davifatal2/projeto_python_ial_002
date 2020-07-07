@@ -32,7 +32,12 @@ def GeraProdutos(nomearq,qtd):
     elif b == 2:
       b = "U"
       c = round(c, 0)
-      
+
+    #Adiciona os dados do exemplo do PDF e completa a lista com mais 11 valores, totalizando 15
+    Dados.append((11370, "P", 14.352, 17.35, 18.82))
+    Dados.append((19258, "U", 317.000, 17.80, 19.30))
+    Dados.append((20412, "U", 19.000, 4.75, 27.55))
+    Dados.append((32177, "P", 16.120, 5.38, 23.00))
     Dados.append((a, b, c, d, e))
     i = i + 1
   
