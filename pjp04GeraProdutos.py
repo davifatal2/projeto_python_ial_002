@@ -1,3 +1,6 @@
+# Teste de commit a partir de meu repositório local
+# NÃO ENTREGAR JUNTO COM OS OUTROS
+
 # Fatec São Paulo, Curso ADS Noturno, 1º / 2020.
 # IAL 002: Projeto Programa nº4
 # Entrega 13/07/2020
@@ -11,7 +14,6 @@
 # XXXXXXXX Max Gabriel Vargas
 
 # Função para gerar o arquivo de dados dos produtos
-# NÃO ENTREGAR JUNTO COM OS OUTROS
 from random import randint
 
 def GeraProdutos(nomearq,qtd):
