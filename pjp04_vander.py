@@ -19,7 +19,7 @@ from random import randint
 
 
 
-#função gera linha com codigo do produto, quantidade de vendas, preço e icms
+#função faz a leitura do arquivo de entrada e gera linha com codigo do produto, quantidade de vendas, preço e icms
 def gerador_de_venda():
     
     icms = [["São Paulo", 18],["Sudeste e Sul",12],
